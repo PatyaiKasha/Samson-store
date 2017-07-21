@@ -1,0 +1,45 @@
+body {
+    font-size: 16px;
+}
+
+.cart-btn {
+    height: 100%;
+    width: 100%;
+    background: #26A69A;
+}
+
+.phone-btn {}
+
+.slider {
+    margin-top: 16px;
+}
+
+article {
+    .about-txt {
+        p {
+            padding-bottom: 56px;
+            border-bottom: 1px solid #999;
+        }
+    }
+    .products {
+        .cards {
+            border-bottom: 1px solid #999;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        h4 {
+            margin: 56px 0;
+        }
+        table {
+            thead {
+
+                border-bottom: none;
+            }
+            .price {
+                font-weight: bolder;
+                font-size: 2rem;
+            }
+        }
+    }
+}

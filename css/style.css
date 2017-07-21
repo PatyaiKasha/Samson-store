@@ -1,0 +1,27 @@
+body {
+  font-size: 16px; }
+
+.cart-btn {
+  height: 100%;
+  width: 100%;
+  background: #26A69A; }
+
+.slider {
+  margin-top: 16px; }
+
+article .about-txt p {
+  padding-bottom: 56px;
+  border-bottom: 1px solid #999; }
+article .products .cards {
+  border-bottom: 1px solid #999; }
+  article .products .cards:hover {
+    cursor: pointer; }
+article .products h4 {
+  margin: 56px 0; }
+article .products table thead {
+  border-bottom: none; }
+article .products table .price {
+  font-weight: bolder;
+  font-size: 2rem; }
+
+/*# sourceMappingURL=style.css.map */
