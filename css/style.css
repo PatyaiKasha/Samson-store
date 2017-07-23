@@ -1,19 +1,31 @@
 body {
   font-size: 16px; }
 
+main h4 {
+  margin: 56px 0; }
+main .big-prev {
+  margin-bottom: 32px; }
+main .small-prev img {
+  margin-bottom: 32px; }
+main .about-good-txt .cart-good-btn {
+  width: 100%;
+  padding: 0 10rem; }
+main .active {
+  border: 1px solid #c5c5c5; }
+
 .cart-btn {
   height: 100%;
   width: 100%;
-  background: #26A69A; }
+  padding: 0 3rem; }
 
 .slider {
   margin-top: 16px; }
 
 article .about-txt p {
   padding-bottom: 56px;
-  border-bottom: 1px solid #999; }
+  border-bottom: 1px solid #C5C5C5; }
 article .products .cards {
-  border-bottom: 1px solid #999; }
+  border-bottom: 1px solid #C5C5C5; }
   article .products .cards:hover {
     cursor: pointer; }
 article .products h4 {

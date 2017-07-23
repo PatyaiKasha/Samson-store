@@ -1,45 +1,68 @@
 body {
-    font-size: 16px;
+  font-size: 16px;
+}
+
+main {
+  h4 {
+    margin: 56px 0;
+  }
+  .big-prev {
+    margin-bottom: 32px;
+  }
+  .small-prev {
+    img {
+      margin-bottom: 32px;
+    }
+  }
+  .about-good-txt {
+    .cart-good-btn {
+      width: 100%;
+      padding: 0 10rem;
+    }
+  }
+  .active {
+    border: 1px solid #c5c5c5;
+  }
 }
 
 .cart-btn {
-    height: 100%;
-    width: 100%;
-    background: #26A69A;
+  height: 100%;
+  width: 100%;
+  padding: 0 3rem;
 }
 
 .phone-btn {}
 
 .slider {
-    margin-top: 16px;
+  margin-top: 16px;
 }
 
 article {
-    .about-txt {
-        p {
-            padding-bottom: 56px;
-            border-bottom: 1px solid #999;
-        }
+  .about-txt {
+    p {
+      padding-bottom: 56px;
+      border-bottom: 1px solid #C5C5C5;
     }
-    .products {
-        .cards {
-            border-bottom: 1px solid #999;
-            &:hover {
-                cursor: pointer;
-            }
-        }
-        h4 {
-            margin: 56px 0;
-        }
-        table {
-            thead {
+  }
+  .products {
+    .cards {
+      border-bottom: 1px solid #C5C5C5;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    h4 {
+      margin: 56px 0;
+    }
+    table {
+      thead {
 
-                border-bottom: none;
-            }
-            .price {
-                font-weight: bolder;
-                font-size: 2rem;
-            }
-        }
+        border-bottom: none;
+      }
+      .price {
+        font-weight: bolder;
+        font-size: 2rem;
+      }
     }
+  }
 }
