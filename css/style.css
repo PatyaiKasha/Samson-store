@@ -1,6 +1,15 @@
 body {
   font-size: 16px; }
 
+header .nav {
+  min-height: 64px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
+  header .nav .phone-btn {
+    width: 100%; }
+  header .nav .cart-btn {
+    height: 100px;
+    line-height: 100px; }
+
 main h4 {
   margin: 56px 0; }
 main .big-prev {
@@ -12,11 +21,6 @@ main .about-good-txt .cart-good-btn {
   padding: 0 10rem; }
 main .active {
   border: 1px solid #c5c5c5; }
-
-.cart-btn {
-  height: 100%;
-  width: 100%;
-  padding: 0 3rem; }
 
 .slider {
   margin-top: 16px; }
@@ -35,5 +39,17 @@ article .products table thead {
 article .products table .price {
   font-weight: bolder;
   font-size: 2rem; }
+
+.cart .send-btn {
+  font-weight: bold; }
+.cart .del-btn i {
+  background: #53BAD1;
+  color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  border-radius: 2px; }
+.cart .max-btn,
+.cart .min-btn {
+  margin: 0 8px;
+  font-size: 1rem; }
 
 /*# sourceMappingURL=style.css.map */

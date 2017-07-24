@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Title of the document</title>
+  <!-- Material Icon CDN -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Path of the materialize.min.css file -->
+  <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection">
+  <!-- Custom css file path -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Used as an example only to position the footer at the end of the page.
+      You can delete these styles or move it to your custom css file -->
+</head>
+
+<body>
+  <header>
+    <div class="nav white">
+      <div class="container">
+        <div class="row valign-wrapper">
+          <div class="col s3 m3 l3">
+            <div class="logo">
+              <a href="index.html"><img src="img/logos/logo-167x64.png" alt="imgs"></a>
+            </div>
+          </div>
+          <div class="col s5 m5 l5">
+            <!-- empty -->
+          </div>
+          <div class="col s4 m4 l4">
+            <a class="cyan waves-effect waves-light btn flow-text phone-btn"><i class="material-icons left">phone</i>Телефон: 095-287-43-90</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- MAIN -->
+  <div class="cart">
+    <div class="container">
+      <div class="row">
+        <h4 class="center-align">Корзина</h4>
+        <table class="striped">
+          <thead>
+            <tr>
+              <th>Название</th>
+              <th>Кол-во</th>
+              <th>Цена</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <a href="#" class="del-btn">
+                  <i class="tiny material-icons left">close</i>
+                </a>Шампунь Echosline S2 для сухих и вьющихся волос
+              </td>
+              <td>
+                <a href="#" class="max-btn">
+                  <i class="material-icons">add_box</i>
+                </a> 1
+                <a href="#" class="min-btn">
+                  <i class="material-icons">indeterminate_check_box</i>
+                </a>
+              </td>
+              <td>172 грн.</td>
+            </tr>
+            <tr>
+              <td>Сумма</td>
+              <td></td>
+              <td>172 грн.</td>
+            </tr>
+          </tbody>
+        </table>
+        <h4 class="center-align">Заполните форму заказа</h4>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="first_name" type="text" class="validate">
+          <label for="last_name">ФИО</label>
+        </div>
+        <div class="input-field col s12">
+          <input id="icon_telephone" type="tel" class="validate">
+          <label for="icon_telephone">Телефон</label>
+        </div>
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email" data-error="wrong" data-success="right">Email</label>
+            </div>
+          </div>
+        </form>
+        <div class="col s4 m4 l4 right">
+          <a class="green darken-4 waves-effect waves-light btn send-btn"><i class="material-icons right">send</i>Подтвердить заказ</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- MAIN-END -->
+  <!-- FOOTER -->
+  <footer class="page-footer grey darken-4 ">
+    <div class="container ">
+      <div class="row ">
+        <div class="col s8">
+          <h5 class="white-text ">Samson</h5>
+          <p class="grey-text text-lighten-4 ">Профессиональное средство по уходу за волосами</p>
+        </div>
+        <div class="col s4">
+          <h5 class="white-text">Контакты</h5>
+          <ul>
+            <li>Тел.095-287-43-90</li>
+            <li>Тел.095-287-43-90</li>
+            <li>Киев ул. Жилянская 128-28</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="black footer-copyright ">
+      <div class="container ">
+        &#169; 2017 Samson
+        <a class="grey-text text-lighten-4 right " href="#! ">Разработка и поддержка AlexStudio.biz</a>
+      </div>
+    </div>
+  </footer>
+  <!-- FOOTER END -->
+  <!-- The jQuery file path -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js "></script>
+  <!-- Path of the materialize.min.js file -->
+  <script src="js/materialize.min.js "></script>
+  <script>
+  $("document ").ready(function() {
+    $('.slider').slider();
+  });
+  </script>
+</body>
+
+</html>
